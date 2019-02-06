@@ -5,3 +5,7 @@ function printBadges(ary) {
   }
   return ary;
 }
+
+function tailsNeverFails() {
+  
+}
