@@ -15,4 +15,5 @@ function tailsNeverFails() {
   while flip() => 0.5 {
     flip();
   }
+  console.log(`You got ${i} tails in a row!`)
 }
