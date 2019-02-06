@@ -9,10 +9,8 @@ function printBadges(ary) {
 function tailsNeverFails() {
   let i = 0;
   function flip() {
+    i++;
     return Math.random();
-  }
-  function counter() {
-    return i++;
   }
   while flip() => 0.5 {
     flip();
