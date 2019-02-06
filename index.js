@@ -7,5 +7,5 @@ function printBadges(ary) {
 }
 
 function tailsNeverFails() {
-
+  let flip = Math.random();
 }
