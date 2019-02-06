@@ -7,13 +7,5 @@ function printBadges(ary) {
 }
 
 function tailsNeverFails() {
-  let i = 0;
-  function flip() {
-    i++;
-    return Math.random();
-  }
-  while flip() => 0.5 {
-    flip();
-  }
-  console.log(`You got ${i} tails in a row!`)
+
 }
